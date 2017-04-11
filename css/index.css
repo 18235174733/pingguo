@@ -1,0 +1,523 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-30 08:57:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-01 16:14:43
+*/
+*{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.tou{
+	width: 100%;
+	height: 44px;
+	background: #444444;
+	color: #A8A8AA;
+	line-height: 44px;
+	font-size: 12px;
+}
+.tou div{
+	margin-left: 90%;
+}
+.banner{
+	width: 100%;
+	height: 540px;
+	background: red;
+	margin: 0 auto;
+}
+.banner .dao{
+	width: 100%;
+	height: 44px;
+	background: #000;
+	line-height: 44px;
+	margin: 0 auto;
+}
+.banner .dao1{
+	width: 1000px;
+	height: 44px;
+	margin: 0 auto;
+}
+.banner .dao1{
+	text-align: justify;
+}
+.banner .dao1:after{
+	content: "";
+	display: inline-block;
+	height: 0;
+	width: 100%;
+}
+.banner .dao1 a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+.banner .dao .dao2{
+	display: none;
+}
+
+.banner .dao3{
+	width: 100%;
+	height: 496px;
+}
+.banner .dao3 .d{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/iphone7_large.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center 200px;
+}
+.banner .dao3 .a{
+	width: auto;
+	height: 22px;
+	color: #fff;
+	margin-top: -440px;
+	font-size: 16px;
+	text-align: center;
+}
+.banner .dao3 .b{
+	width: auto;
+	height: 30px;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+.banner .dao3 .c{
+	width: auto;
+	height: 22px;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+}
+
+.banner .dao4{
+	display: none;
+}
+.banner .dao5{
+	display: none;
+}
+.banner .left{
+	width: 270px;
+	height: 496px;
+	position: absolute;
+	top: 88px;
+	left: 0;
+	
+}
+
+
+
+.tu{
+	display: block;
+}
+.tu{
+	width: 100%;
+	height: auto;
+	background: blue;
+}
+.tu div img{
+	width: 25%;
+	height: auto;
+	float: left;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.tu1{
+	display: none;
+}
+.tu2{
+	display: none;
+}
+
+
+
+
+.banner .left .l{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background: rgba(180, 180, 180, 0.2);
+	position: absolute;
+	top: 200px;
+	left: 20px;
+	line-height: 64px;
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+}
+.banner .left div{
+	display: none;
+}
+.banner .left:hover div{
+	display: block;
+	background: rgba(180, 180, 180, 0.1);
+}
+.banner .right{
+	width: 270px;
+	height: 496px;
+	position: absolute;
+	top: 88px;
+	right: 0;
+}
+.banner .right .l{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background: rgba(180, 180, 180, 0.2);
+	position: absolute;
+	top: 200px;
+	right: 20px;
+	line-height: 64px;
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+}
+.banner .right div{
+	display: none;
+}
+.banner .right:hover div{
+	display: block;
+	background: rgba(180, 180, 180, 0.1);
+}
+
+
+
+footer{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #F2F2F2;
+	border-top: 2px solid #fff;
+}
+
+footer .con{
+	width: 980px;
+	padding: 0 20px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+
+footer .con p{
+	width: 100%;
+	height: auto;
+	line-height: 20px;
+	padding: 17px 0 11px;
+	border-bottom: 1px solid #D6D6D6;
+	color: #888;
+}
+
+
+footer .center{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-top: 20px;
+	color: #888;
+}
+
+footer .center div{
+	width: 20%;
+	height: 245px;
+	float: left;
+}
+
+footer .center div h3{
+	color: #333333;
+}
+footer .center div a{
+	display: block;
+	color: #555555;
+	margin-top: 6px;
+}
+
+footer .center div a:hover{
+	text-decoration: underline;
+}
+
+.bottom{
+	color: #555555;
+}
+.bottom .b1 a{
+	color: #0070C9;
+}
+
+.bottom .b1{
+	margin-bottom: 8px;
+}
+.bottom div:nth-child(1){
+	width: 100%;
+	padding: 10px 0px;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+.bottom a:hover{
+	text-decoration: underline;
+}
+.bottom div span{
+	display: block;
+	float: left;
+}
+.bottom div ul{
+	float: left;
+	margin-left: 30px;
+}
+.bottom div ul li{
+	width: 50px;
+	height: 17px;
+	padding-right: 11px;
+	margin-right: 12px;
+	border-right: 1px solid #D6D6D6;
+	float: left;
+}
+.bottom div ul li:last-child{
+	border-right: 0;
+}
+.bottom div ul li a{
+	color: #555555;
+}
+.bottom .p1{
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	padding: 30px 0;
+	border: 0;
+}
+
+.bottom .p1 a{
+	color: #999999;
+}
+
+.center1{
+	display: none;
+}
+
+@media screen and (max-width: 1000px){
+	.banner .dao .dao1{
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	.banner .dao3{
+		display: none;
+	}
+	.banner .dao4{
+		display: block;
+	}
+	.banner{
+		width: 100%;
+		height: 500px;
+		background: red;
+		margin: 0 auto;
+	}
+	.banner .dao4{
+		width: 100%;
+		height: 456px;
+	}
+	.banner .dao4 a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-image: url('../img/iphone7_medium.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center 200px;
+	}
+	.banner .dao4 .a{
+		width: auto;
+		height: 22px;
+		color: #fff;
+		margin-top: -420px;
+		font-size: 14px;
+		text-align: center;
+	}
+	.banner .dao4 .b{
+		width: auto;
+		height: 30px;
+		color: #fff;
+		font-size: 25px;
+		text-align: center;
+	}
+	.banner .dao4 .c{
+		width: auto;
+		height: 22px;
+		color: #fff;
+		font-size: 30px;
+		text-align: center;
+	}
+	.tu{
+		display: none;
+	}
+	.tu1{
+		display: block;
+	}
+	.tu1{
+		width: 100%;
+		height: auto;
+		background: blue;
+	}
+	.tu1 div img{
+		width: 50%;
+		height: auto;
+		float: left;
+		border: 2px solid #fff;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+
+
+	footer .con{
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+}
+@media screen and (max-width: 770px){
+	.banner .dao .dao1{
+		display: none;
+	}
+	.banner .dao .dao2{
+		display: block;
+	}
+	.banner .dao2{
+		width: 100%;
+		height: 44px;
+		margin: 0 auto;
+	}
+	.banner .dao2{
+		text-align: justify;
+	}
+	.banner .dao2:after{
+		content: "";
+		display: inline-block;
+		height: 0;
+		width: 100%;
+	}
+	.banner .dao2 a{
+		display: inline-block;
+		color: #fff;
+		text-decoration: none;
+	}
+	.banner .dao .dao2{
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	.banner .dao4{
+		display: none;
+	}
+	.banner .dao5{
+		display: block;
+	}
+	.banner{
+		width: 100%;
+		height: 478px;
+		background: red;
+		margin: 0 auto;
+	}
+	.banner .dao5{
+		width: 100%;
+		height: 434px;
+	}
+	.banner .dao5 a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-image: url('../img/iphone7_small.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center 200px;
+	}
+	.banner .dao5 .a{
+		width: auto;
+		height: 22px;
+		color: #fff;
+		margin-top: -400px;
+		font-size: 14px;
+		text-align: center;
+	}
+	.banner .dao5 .b{
+		width: auto;
+		height: 30px;
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+	}
+	.banner .dao5 .c{
+		width: auto;
+		height: 22px;
+		color: #fff;
+		font-size: 25px;
+		text-align: center;
+	}
+	.tu1{
+		display: none;
+	}
+	.tu2{
+		display: block;
+	}
+	.tu2{
+		width: 100%;
+		height: auto;
+		background: blue;
+	}
+	.tu2 div img{ 
+		width: 100%;
+		height: auto;
+		float: left;
+		border: 2px solid #fff;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+
+
+
+
+
+	footer .center{
+	display: none;
+}
+
+
+.bottom div span{
+	float: none;
+}
+
+.bottom div ul{
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+
+
+
+footer .center1{
+	margin-top: 20px;
+}
+footer .center1 div h3{
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #D6D6D6;
+	color: #333333;
+	font-weight: 400;
+}
+
+footer .center1 div h3 span{
+	display: block;
+	float: right;
+	margin-right: 10px;
+}
+
+
+.center1{
+	display: block;
+}
+
+}
